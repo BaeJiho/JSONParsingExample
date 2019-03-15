@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		986D9C2D223B980A00443121 /* JsonParsingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986D9C2C223B980A00443121 /* JsonParsingViewController.swift */; };
+		9880B4AD223B8EA400FB95C5 /* VersionTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9880B4AC223B8EA400FB95C5 /* VersionTwoViewController.swift */; };
+		9880B4AF223B8FA600FB95C5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9880B4AE223B8FA600FB95C5 /* Model.swift */; };
 		988503282237748F0070FDA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988503272237748F0070FDA1 /* AppDelegate.swift */; };
 		9885032A2237748F0070FDA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988503292237748F0070FDA1 /* ViewController.swift */; };
 		9885032D2237748F0070FDA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9885032B2237748F0070FDA1 /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		986D9C2C223B980A00443121 /* JsonParsingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParsingViewController.swift; sourceTree = "<group>"; };
+		9880B4AC223B8EA400FB95C5 /* VersionTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionTwoViewController.swift; sourceTree = "<group>"; };
+		9880B4AE223B8FA600FB95C5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		988503242237748F0070FDA1 /* JsonParsingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonParsingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		988503272237748F0070FDA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		988503292237748F0070FDA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		986D9C2B223B974A00443121 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9880B4AE223B8FA600FB95C5 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		9885031B2237748F0070FDA1 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +73,9 @@
 			children = (
 				988503272237748F0070FDA1 /* AppDelegate.swift */,
 				988503292237748F0070FDA1 /* ViewController.swift */,
+				9880B4AC223B8EA400FB95C5 /* VersionTwoViewController.swift */,
+				986D9C2C223B980A00443121 /* JsonParsingViewController.swift */,
+				986D9C2B223B974A00443121 /* Model */,
 				9885032B2237748F0070FDA1 /* Main.storyboard */,
 				9885032E223774900070FDA1 /* Assets.xcassets */,
 				98850330223774900070FDA1 /* LaunchScreen.storyboard */,
@@ -140,7 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9885032A2237748F0070FDA1 /* ViewController.swift in Sources */,
+				9880B4AD223B8EA400FB95C5 /* VersionTwoViewController.swift in Sources */,
 				988503282237748F0070FDA1 /* AppDelegate.swift in Sources */,
+				986D9C2D223B980A00443121 /* JsonParsingViewController.swift in Sources */,
+				9880B4AF223B8FA600FB95C5 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

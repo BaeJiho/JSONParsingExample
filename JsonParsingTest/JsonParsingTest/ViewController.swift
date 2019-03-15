@@ -29,11 +29,6 @@ class ViewController: UIViewController {
         for i in parsingData {
             print(i["age"] as! String)
         }
-//        if let d = person["person"] as? [[String: Any]] {
-//            for i in d {
-//                nameArr.append(i["name"] as! String)
-//            }
-//        }
         print(nameArr)
         
     }
